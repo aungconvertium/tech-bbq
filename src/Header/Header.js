@@ -4,8 +4,8 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <header className="header">
-        Header
+      <header className="header padding">
+        <h1>Tech BBQ</h1>
       </header>
     );
   }
