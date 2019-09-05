@@ -5,6 +5,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Banner from './Banner/Banner';
 import Countdown from './Countdown/Countdown';
+import Agenda from './Agenda/Agenda';
 
 const data = {
   header: {
@@ -21,6 +22,7 @@ class App extends Component {
       <div className='app'>
         <Header data={data.header} />
         <Banner />
+        <Agenda />
         <Countdown />
         <Footer data={data.footer} />
       </div>
