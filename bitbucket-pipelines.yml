@@ -7,7 +7,7 @@ pipelines:
         caches:
           - node
         script:
-          - npm install && npm build
+          - npm install && npm run build
         artifacts:
           - build/**
 
