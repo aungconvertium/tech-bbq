@@ -8,6 +8,8 @@ pipelines:
           - node
         script:
           - npm install && npm build
+        artifacts:
+          - build/**
 
     - step:
         name: Deploy to Firebase
