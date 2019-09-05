@@ -17,7 +17,7 @@ const data = {
 class App extends Component {
   render() {
     return (
-      <div className="app">
+      <div className='app'>
         <Header data={data.header} />
         <Banner />
         <Footer data={data.footer} />

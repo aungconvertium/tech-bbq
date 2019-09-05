@@ -6,7 +6,7 @@ class Header extends Component {
     const title = this.props.data.title;
 
     return (
-      <header className="header padding">
+      <header className='header padding'>
         <h1>{title}</h1>
       </header>
     );

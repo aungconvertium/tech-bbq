@@ -6,7 +6,7 @@ class Footer extends Component {
     const copyright = this.props.data.copyright;
 
     return (
-      <footer className="footer padding">
+      <footer className='footer padding'>
         <p dangerouslySetInnerHTML={{ __html: copyright }} />
       </footer>
     );

@@ -6,8 +6,8 @@ class Split extends Component {
     const text = this.props.data;
 
     text.split('').forEach((char, index) => {
-      const style = { "--char-index": index};
-      chars.push(<span key={index} className="char" style={style}>{char}</span>);
+      const style = {'--char-index': index};
+      chars.push(<span key={index} className='char' style={style}>{char}</span>);
     });
 
     return (
