@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import './Banner.css';
 
-import Split from '../Split/Split';
+import Section from '../Section/Section';
 
 class Banner extends Component {
   render() {
-    const title = "Party!";
+    const data = {
+      title: 'Party!',
+      sectionClass: 'banner',
+      animationStyle: 'jump'
+    };
 
     return (
-      <section className="banner">
-        <div data-splitting className="headline headline--jump">
-          <Split data={title} />
-        </div>
-      </section>
+      <Section data={data} />
     );
   }
 }
