@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Banner from './Banner/Banner';
+import Countdown from './Countdown/Countdown';
 
 const data = {
   header: {
@@ -20,6 +21,7 @@ class App extends Component {
       <div className='app'>
         <Header data={data.header} />
         <Banner />
+        <Countdown />
         <Footer data={data.footer} />
       </div>
     );
