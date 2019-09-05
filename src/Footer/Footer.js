@@ -3,9 +3,11 @@ import './Footer.css';
 
 class Footer extends Component {
   render() {
+    const copyright = this.props.data.copyright;
+
     return (
       <footer className="footer padding">
-        Copyright &copy; 2019 Tech Team
+        <p dangerouslySetInnerHTML={{ __html: copyright }} />
       </footer>
     );
   }

@@ -3,9 +3,11 @@ import './Header.css';
 
 class Header extends Component {
   render() {
+    const title = this.props.data.title;
+
     return (
       <header className="header padding">
-        <h1>Tech BBQ</h1>
+        <h1>{title}</h1>
       </header>
     );
   }

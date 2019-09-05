@@ -5,13 +5,22 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Banner from './Banner/Banner';
 
+const data = {
+  header: {
+    title: 'Tech BBQ'
+  },
+  footer: {
+    copyright: 'Copyright &copy; 2019 Tech Team'
+  }
+};
+
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <Header />
+        <Header data={data.header} />
         <Banner />
-        <Footer />
+        <Footer data={data.footer} />
       </div>
     );
   }
